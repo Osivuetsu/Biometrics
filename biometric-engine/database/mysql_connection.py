@@ -12,6 +12,7 @@ db_config = {
     "user": os.getenv("DB_USER", "root"),
     "password": os.getenv("DB_PASSWORD", ""),
     "ssl_ca": os.getenv("DB_SSL_CA", "aiven-ca.pem"),
+    "ssl_verify_cert": True,
 }
 
 connection_pool = pooling.MySQLConnectionPool(
