@@ -1,0 +1,112 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  LECTURER
+  STUDENT
+}
+
+enum VerificationStatus {
+  VERIFIED
+  FAILED
+  PENDING
+}
+
+model User {
+  user_id    Int      @id @default(autoincrement())
+  username   String   @unique @db.VarChar(100)
+  password   String   @db.VarChar(255)
+  role       Role
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  student  Student?
+  lecturer Lecturer?
+
+  @@map("users")
+}
+
+model Student {
+  student_id Int    @id @default(autoincrement())
+  user_id    Int    @unique
+  matric_no  String @unique @db.VarChar(50)
+  name       String @db.VarChar(150)
+  department String @db.VarChar(100)
+  level      Int
+
+  user           User             @relation(fields: [user_id], references: [user_id], onDelete: Cascade)
+  enrollments    Enrollment[]
+  attendance     Attendance[]
+  faceEmbeddings FaceEmbedding[]
+
+  @@map("students")
+}
+
+model Lecturer {
+  lecturer_id Int    @id @default(autoincrement())
+  user_id     Int    @unique
+  name        String @db.VarChar(150)
+  email       String @unique @db.VarChar(150)
+
+  user    User     @relation(fields: [user_id], references: [user_id], onDelete: Cascade)
+  courses Course[]
+
+  @@map("lecturers")
+}
+
+model Course {
+  course_id   Int    @id @default(autoincrement())
+  course_code String @unique @db.VarChar(20)
+  title       String @db.VarChar(200)
+  lecturer_id Int
+
+  lecturer    Lecturer     @relation(fields: [lecturer_id], references: [lecturer_id])
+  enrollments Enrollment[]
+  attendance  Attendance[]
+
+  @@map("courses")
+}
+
+model Enrollment {
+  enrollment_id Int @id @default(autoincrement())
+  student_id    Int
+  course_id     Int
+
+  student Student @relation(fields: [student_id], references: [student_id], onDelete: Cascade)
+  course  Course  @relation(fields: [course_id], references: [course_id], onDelete: Cascade)
+
+  @@unique([student_id, course_id])
+  @@map("enrollments")
+}
+
+model FaceEmbedding {
+  embedding_id     Int      @id @default(autoincrement())
+  student_id       Int
+  embedding_vector Json
+  created_at       DateTime @default(now())
+
+  student Student @relation(fields: [student_id], references: [student_id], onDelete: Cascade)
+
+  @@map("face_embeddings")
+}
+
+model Attendance {
+  attendance_id       Int                @id @default(autoincrement())
+  student_id          Int
+  course_id           Int
+  timestamp           DateTime           @default(now())
+  distance_score      Float?
+  verification_status VerificationStatus @default(PENDING)
+
+  student Student @relation(fields: [student_id], references: [student_id])
+  course  Course  @relation(fields: [course_id], references: [course_id])
+
+  @@map("attendance")
+}

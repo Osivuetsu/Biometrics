@@ -1,0 +1,810 @@
+2026-06-18 20:30:34 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value out of range for the type. The column `created_at` contained an invalid datetime value with either day or month set to zero.
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:30:35 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value out of range for the type. The column `created_at` contained an invalid datetime value with either day or month set to zero.
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:30:36 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value out of range for the type. The column `created_at` contained an invalid datetime value with either day or month set to zero.
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:36:31 [error]: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value '' not found in enum 'Role'
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7505)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:36:32 [error]: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value '' not found in enum 'Role'
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7505)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:36:33 [error]: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value '' not found in enum 'Role'
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7505)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:36:34 [error]: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value '' not found in enum 'Role'
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7505)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:37:12 [error]: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value '' not found in enum 'Role'
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7505)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-18 20:41:20 [error]: Biometric engine error during enrollment:
+2026-06-18 20:41:20 [error]: AppError: Face enrollment failed
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:39:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-18 20:41:55 [error]: Biometric engine error during enrollment:
+2026-06-18 20:41:55 [error]: AppError: Face enrollment failed
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:39:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-18 20:42:42 [error]: Biometric engine error during enrollment:
+2026-06-18 20:42:42 [error]: AppError: Face enrollment failed
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:39:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-18 20:50:14 [error]: PrismaClientValidationError: 
+Invalid `prisma.faceEmbedding.create()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:27:52
+
+  24 const { embedding_vector } = response.data;
+  25 
+  26 // Store embedding in DB
+→ 27 const embedding = await prisma.faceEmbedding.create({
+       data: {
+         student_id: 1,
+     +   embedding_vector: JsonNullValueInput | Json
+       }
+     })
+
+Argument `embedding_vector` is missing.
+    at wn (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:27:25)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-18 20:54:08 [error]: Biometric engine error during enrollment: No face detected in the image
+2026-06-18 20:54:08 [error]: AppError: No face detected in the image
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:39:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-18 20:54:30 [error]: Biometric engine error during enrollment: No face detected in the image
+2026-06-18 20:54:30 [error]: AppError: No face detected in the image
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:39:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-18 20:54:46 [error]: PrismaClientValidationError: 
+Invalid `prisma.faceEmbedding.create()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:27:52
+
+  24 const { embedding_vector } = response.data;
+  25 
+  26 // Store embedding in DB
+→ 27 const embedding = await prisma.faceEmbedding.create({
+       data: {
+         student_id: 1,
+     +   embedding_vector: JsonNullValueInput | Json
+       }
+     })
+
+Argument `embedding_vector` is missing.
+    at wn (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:27:25)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-18 21:10:30 [error]: PrismaClientValidationError: 
+Invalid `prisma.student.update()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:102:27
+
+   99 async update(id: number, input: UpdateStudentInput) {
+  100   await this.getById(id);
+  101 
+→ 102   return prisma.student.update({
+          where: {
+            student_id: 1
+          },
+          data: {
+            student_id: 1,
+            ~~~~~~~~~~
+            user_id: 5,
+            matric_no: "ENG2102767",
+            name: "Fortune Etsu",
+            department: "Computer",
+            level: 100,
+            user: {
+              username: "Fort",
+              role: "STUDENT"
+            },
+        ?   enrollments?: EnrollmentUpdateManyWithoutStudentNestedInput,
+        ?   attendance?: AttendanceUpdateManyWithoutStudentNestedInput,
+        ?   faceEmbeddings?: FaceEmbeddingUpdateManyWithoutStudentNestedInput
+          },
+          include: {
+            user: {
+              select: {
+                username: true,
+                role: true
+              }
+            }
+          }
+        })
+
+Unknown argument `student_id`. Available options are marked with ?.
+    at wn (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at StudentController.update (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:38:23)
+2026-06-18 21:10:36 [error]: PrismaClientValidationError: 
+Invalid `prisma.student.update()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:102:27
+
+   99 async update(id: number, input: UpdateStudentInput) {
+  100   await this.getById(id);
+  101 
+→ 102   return prisma.student.update({
+          where: {
+            student_id: 1
+          },
+          data: {
+            student_id: 1,
+            ~~~~~~~~~~
+            user_id: 5,
+            matric_no: "ENG2102767",
+            name: "Fortune Etsu",
+            department: "Computer",
+            level: 100,
+            user: {
+              username: "Fort",
+              role: "STUDENT"
+            },
+        ?   enrollments?: EnrollmentUpdateManyWithoutStudentNestedInput,
+        ?   attendance?: AttendanceUpdateManyWithoutStudentNestedInput,
+        ?   faceEmbeddings?: FaceEmbeddingUpdateManyWithoutStudentNestedInput
+          },
+          include: {
+            user: {
+              select: {
+                username: true,
+                role: true
+              }
+            }
+          }
+        })
+
+Unknown argument `student_id`. Available options are marked with ?.
+    at wn (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at StudentController.update (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:38:23)
+2026-06-18 21:21:22 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:26:30 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:26:39 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:27:05 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:50:02 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:50:18 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:50:35 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:50:56 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:51:15 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:51:31 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:51:40 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:51:50 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:52:13 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:52:22 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:52:31 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:54:03 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-19 10:54:32 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-06-20 20:32:27 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\attendance\services\attendance.service.ts:34:25
+
+  31 };
+  32 
+  33 const [records, total] = await Promise.all([
+→ 34   prisma.attendance.findMany(
+Can't reach database server at `localhost:3306`
+
+Please make sure your database server is running at `localhost:3306`.
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async Promise.all (index 0)
+    at AttendanceService.getAll (C:\Users\user\Downloads\biom sys\backend\src\modules\attendance\services\attendance.service.ts:33:30)
+    at AttendanceController.getAll (C:\Users\user\Downloads\biom sys\backend\src\modules\attendance\controllers\attendance.controller.ts:11:22)
+2026-06-20 22:07:10 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.attendance.count()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\attendance\services\attendance.service.ts:44:25
+
+  41     course: { select: { course_code: true, title: true } },
+  42   },
+  43 }),
+→ 44 prisma.attendance.count(
+Can't reach database server at `localhost:3306`
+
+Please make sure your database server is running at `localhost:3306`.
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async Promise.all (index 1)
+    at AttendanceService.getAll (C:\Users\user\Downloads\biom sys\backend\src\modules\attendance\services\attendance.service.ts:33:30)
+    at AttendanceController.getAll (C:\Users\user\Downloads\biom sys\backend\src\modules\attendance\controllers\attendance.controller.ts:11:22)
+2026-06-26 09:30:38 [error]: Biometric engine error during enrollment: No face detected in the image
+2026-06-26 09:30:38 [error]: AppError: No face detected in the image
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:31:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-06-26 09:30:51 [error]: Biometric engine error during enrollment: No face detected in the image
+2026-06-26 09:30:51 [error]: AppError: No face detected in the image
+    at RecognitionService.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:31:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:12:22)
+2026-08-17 05:06:19 [error]: PrismaClientInitializationError: Can't reach database server at `localhost:3306`
+
+Please make sure your database server is running at `localhost:3306`.
+    at t (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:112:2488)
+    at connectDB (C:\Users\user\Downloads\biom sys\backend\src\config\db.ts:20:5)
+    at startServer (C:\Users\user\Downloads\biom sys\backend\src\server.ts:7:3)
+2026-08-17 05:16:22 [error]: PrismaClientInitializationError: Can't reach database server at `localhost:3306`
+
+Please make sure your database server is running at `localhost:3306`.
+    at t (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:112:2488)
+    at connectDB (C:\Users\user\Downloads\biom sys\backend\src\config\db.ts:20:5)
+    at startServer (C:\Users\user\Downloads\biom sys\backend\src\server.ts:7:3)
+2026-08-17 05:29:44 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 05:29:54 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 05:35:20 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 05:36:41 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 05:36:52 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 05:37:01 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 05:41:40 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:29
+
+  112 await this.getById(id);
+  113 // Deleting user cascades to student due to prisma schema
+  114 const student = await prisma.student.findUnique({ where: { student_id: id } });
+→ 115 await prisma.user.delete(
+Foreign key constraint violated: `student_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at StudentService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:5)
+    at StudentController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:47:22)
+2026-08-17 05:41:48 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:29
+
+  94 
+  95 async delete(id: number) {
+  96   const lecturer = await this.getById(id);
+→ 97   await prisma.user.delete(
+Foreign key constraint violated: `lecturer_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at LecturerService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:5)
+    at LecturerController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\controllers\lecturer.controller.ts:39:22)
+2026-08-17 05:44:59 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:29
+
+  94 
+  95 async delete(id: number) {
+  96   const lecturer = await this.getById(id);
+→ 97   await prisma.user.delete(
+Foreign key constraint violated: `lecturer_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at LecturerService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:5)
+    at LecturerController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\controllers\lecturer.controller.ts:39:22)
+2026-08-17 05:46:42 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.course.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\courses\services\course.service.ts:210:31
+
+  207 
+  208 async delete(id: number) {
+  209   await this.getById(id);
+→ 210   await prisma.course.delete(
+Foreign key constraint violated: `course_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at CourseService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\courses\services\course.service.ts:210:5)
+    at CourseController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\courses\controllers\course.controller.ts:91:22)
+2026-08-17 05:46:53 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:29
+
+  94 
+  95 async delete(id: number) {
+  96   const lecturer = await this.getById(id);
+→ 97   await prisma.user.delete(
+Foreign key constraint violated: `lecturer_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at LecturerService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:5)
+    at LecturerController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\controllers\lecturer.controller.ts:39:22)
+2026-08-17 05:46:59 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:29
+
+  112 await this.getById(id);
+  113 // Deleting user cascades to student due to prisma schema
+  114 const student = await prisma.student.findUnique({ where: { student_id: id } });
+→ 115 await prisma.user.delete(
+Foreign key constraint violated: `student_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at StudentService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:5)
+    at StudentController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:47:22)
+2026-08-17 06:15:33 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 06:15:39 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 06:15:48 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 06:18:56 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 06:20:33 [error]: PrismaClientKnownRequestError: 
+Invalid `tx.student.create()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:82:25
+
+  79   },
+  80 });
+  81 
+→ 82 return tx.student.create(
+Unique constraint failed on the constraint: `students_matric_no_key`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at Proxy._transactionWithCallback (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:8000)
+    at StudentService.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:73:21)
+    at StudentController.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:29:23)
+2026-08-17 06:21:16 [error]: PrismaClientKnownRequestError: 
+Invalid `tx.student.create()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:82:25
+
+  79   },
+  80 });
+  81 
+→ 82 return tx.student.create(
+Unique constraint failed on the constraint: `students_matric_no_key`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at Proxy._transactionWithCallback (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:8000)
+    at StudentService.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:73:21)
+    at StudentController.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:29:23)
+2026-08-17 06:21:35 [error]: PrismaClientKnownRequestError: 
+Invalid `tx.student.create()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:82:25
+
+  79   },
+  80 });
+  81 
+→ 82 return tx.student.create(
+Unique constraint failed on the constraint: `students_matric_no_key`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at Proxy._transactionWithCallback (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:8000)
+    at StudentService.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:73:21)
+    at StudentController.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:29:23)
+2026-08-17 06:21:38 [error]: PrismaClientKnownRequestError: 
+Invalid `tx.student.create()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:82:25
+
+  79   },
+  80 });
+  81 
+→ 82 return tx.student.create(
+Unique constraint failed on the constraint: `students_matric_no_key`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at Proxy._transactionWithCallback (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:8000)
+    at StudentService.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:73:21)
+    at StudentController.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:29:23)
+2026-08-17 06:22:30 [error]: PrismaClientKnownRequestError: 
+Invalid `tx.student.create()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:82:25
+
+  79   },
+  80 });
+  81 
+→ 82 return tx.student.create(
+Unique constraint failed on the constraint: `students_matric_no_key`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at Proxy._transactionWithCallback (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:8000)
+    at StudentService.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:73:21)
+    at StudentController.create (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:29:23)
+2026-08-17 06:26:06 [error]: Biometric engine error during recognition: No face detected in the image
+2026-08-17 06:26:06 [error]: AppError: No face detected in the image
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:79:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-17 06:26:12 [error]: Biometric engine error during recognition: No face detected in the image
+2026-08-17 06:26:12 [error]: AppError: No face detected in the image
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:79:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-17 06:59:00 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:29
+
+  112 await this.getById(id);
+  113 // Deleting user cascades to student due to prisma schema
+  114 const student = await prisma.student.findUnique({ where: { student_id: id } });
+→ 115 await prisma.user.delete(
+Foreign key constraint violated: `student_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at StudentService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:5)
+    at StudentController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:47:22)
+2026-08-17 06:59:12 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:29
+
+  94 
+  95 async delete(id: number) {
+  96   const lecturer = await this.getById(id);
+→ 97   await prisma.user.delete(
+Foreign key constraint violated: `lecturer_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at LecturerService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\services\lecturer.service.ts:97:5)
+    at LecturerController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\lecturers\controllers\lecturer.controller.ts:39:22)
+2026-08-17 07:00:33 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:59:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 07:00:46 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 07:00:54 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 07:01:03 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 07:01:14 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 07:02:41 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-17 07:11:53 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 07:11:55 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 07:11:56 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 07:11:59 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:205:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:69:22)
+2026-08-17 12:24:29 [error]: AppError: No face detected in the image
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 12:24:54 [error]: AppError: No face detected in the image
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 12:24:55 [error]: AppError: No face detected in the image
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 13:55:16 [error]: AppError: Multiple faces detected (2). Please provide a single face.
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 13:56:27 [error]: AppError: Multiple faces detected (2). Please provide a single face.
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 13:56:29 [error]: AppError: Multiple faces detected (2). Please provide a single face.
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-17 13:56:31 [error]: AppError: Multiple faces detected (2). Please provide a single face.
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:173:15)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:61:22)
+2026-08-19 03:03:00 [error]: AppError: Only 0 image(s) passed quality check. Need at least 2. Issues: ['Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting']
+    at RecognitionService.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:35:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-19 03:06:04 [error]: AppError: Only 0 image(s) passed quality check. Need at least 2. Issues: ['Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting']
+    at RecognitionService.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:35:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-19 03:16:14 [error]: AppError: Only 0 image(s) passed quality check. Need at least 2. Issues: ['Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting']
+    at RecognitionService.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:35:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-19 03:39:41 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value out of range for the type. The column `created_at` contained an invalid datetime value with either day or month set to zero.
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-19 03:39:45 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:36
+
+  51 }
+  52 
+  53 async login(input: LoginInput) {
+→ 54   const user = await prisma.user.findUnique(
+Value out of range for the type. The column `created_at` contained an invalid datetime value with either day or month set to zero.
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:54:18)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-19 04:32:46 [error]: AppError: Only 0 image(s) passed quality check. Need at least 2. Issues: ['Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting']
+    at RecognitionService.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:35:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-19 04:34:16 [error]: AppError: Only 0 image(s) passed quality check. Need at least 2. Issues: ['Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting', 'Image too blurry — hold still and ensure good lighting']
+    at RecognitionService.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:35:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-19 04:38:58 [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.delete()` invocation in
+C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:29
+
+  112 await this.getById(id);
+  113 // Deleting user cascades to student due to prisma schema
+  114 const student = await prisma.student.findUnique({ where: { student_id: id } });
+→ 115 await prisma.user.delete(
+Foreign key constraint violated: `student_id`
+    at $n.handleRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:7315)
+    at $n.handleAndLogRequestError (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at l (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at StudentService.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\services\student.service.ts:115:5)
+    at StudentController.delete (C:\Users\user\Downloads\biom sys\backend\src\modules\students\controllers\student.controller.ts:47:22)
+2026-08-19 04:39:30 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-19 04:41:30 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-19 04:41:31 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-19 04:53:28 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:90:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:44:22)
+2026-08-19 04:53:36 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:49:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:28:22)
+2026-08-19 04:53:39 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:49:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:28:22)
+2026-08-19 04:53:41 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:49:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFace (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:28:22)
+2026-08-19 04:53:44 [error]: AppError: Face recognition failed
+    at RecognitionService.recognizeFaceConfirmed (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:63:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.recognizeFaceConfirmed (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:36:22)
+2026-08-19 23:03:37 [error]: PrismaClientInitializationError: Can't reach database server at `localhost:3306`
+
+Please make sure your database server is running at `localhost:3306`.
+    at t (C:\Users\user\Downloads\biom sys\backend\node_modules\@prisma\client\runtime\library.js:112:2488)
+    at connectDB (C:\Users\user\Downloads\biom sys\backend\src\config\db.ts:20:5)
+    at startServer (C:\Users\user\Downloads\biom sys\backend\src\server.ts:7:3)
+2026-08-19 23:08:38 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-24 13:26:04 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-24 13:26:07 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-24 13:28:01 [error]: AppError: Only 0 image(s) passed quality check. Need at least 2. Issues: ['No face detected', 'No face detected', 'No face detected']
+    at RecognitionService.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\services\recognition.service.ts:35:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at RecognitionController.enrollFaceMulti (C:\Users\user\Downloads\biom sys\backend\src\modules\recognition\controllers\recognition.controller.ts:20:22)
+2026-08-24 13:50:48 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-24 15:22:54 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
+2026-08-24 15:23:12 [error]: AppError: Invalid username or password
+    at AuthService.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\services\auth.service.ts:65:13)
+    at AuthController.login (C:\Users\user\Downloads\biom sys\backend\src\modules\auth\controllers\auth.controller.ts:21:22)
