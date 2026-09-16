@@ -11,6 +11,7 @@ db_config = {
     "database": os.getenv("DB_NAME", "biometric_attendance"),
     "user": os.getenv("DB_USER", "root"),
     "password": os.getenv("DB_PASSWORD", ""),
+    "ssl_ca": os.getenv("DB_SSL_CA", "aiven-ca.pem"),
 }
 
 connection_pool = pooling.MySQLConnectionPool(
