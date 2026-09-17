@@ -6,6 +6,16 @@ import { sendSuccess } from '../../../shared/utils/response';
 const recognitionService = new RecognitionService();
 
 export class RecognitionController {
+
+  async wakeEngine(req: AuthRequest, res: Response, next: NextFunction): Promise<void> {
+    try {
+      await recognitionService.wakeEngine();
+      sendSuccess(res, 'Biometric engine is ready');
+    } catch (error) {
+      next(error);
+    }
+  }
+
   async enrollFace(req: AuthRequest, res: Response, next: NextFunction): Promise<void> {
     try {
       const { student_id, image } = req.body;
