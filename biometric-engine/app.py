@@ -13,24 +13,51 @@ CORS(app)
 app.register_blueprint(recognition_bp)
 
 
+# Health check endpoint
+# Used by the Express backend to wake the Render service
+@app.route("/", methods=["GET"])
+def health_check():
+    return {
+        "success": True,
+        "status": "ok",
+        "service": "biometric-engine"
+    }, 200
+
+
 @app.errorhandler(404)
 def not_found(e):
-    return {"success": False, "message": "Route not found"}, 404
+    return {
+        "success": False,
+        "message": "Route not found"
+    }, 404
 
 
 @app.errorhandler(405)
 def method_not_allowed(e):
-    return {"success": False, "message": "Method not allowed"}, 405
+    return {
+        "success": False,
+        "message": "Method not allowed"
+    }, 405
 
 
 @app.errorhandler(500)
 def internal_error(e):
-    return {"success": False, "message": "Internal server error"}, 500
+    return {
+        "success": False,
+        "message": "Internal server error"
+    }, 500
 
 
 if __name__ == "__main__":
     port = int(os.getenv("FLASK_PORT", 8000))
     debug = os.getenv("FLASK_ENV", "development") == "development"
+
     print(f"Biometric engine running on port {port}")
     print("Using face_recognition (dlib) — no model download required")
-    app.run(host="0.0.0.0", port=port, debug=debug)
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=debug
+    )
+
