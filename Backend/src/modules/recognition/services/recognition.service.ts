@@ -13,10 +13,12 @@ const biometricClient = axios.create({
 export class RecognitionService {
 
   /**
-   * Wake the Render biometric service before making a biometric request.
+   * Wake the Render biometric service before making
+   * a biometric request.
+   *
    * Render free services can sleep when inactive.
    */
-  private async wakeBiometricEngine() {
+  private async wakeBiometricEngine(): Promise<void> {
     const maxAttempts = 3;
 
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
@@ -44,6 +46,17 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Public method used by the Take Attendance page
+   * to wake the biometric Render service when the page loads.
+   */
+  async wakeEngine(): Promise<void> {
+    await this.wakeBiometricEngine();
+  }
+
+  /**
+   * Enroll a single face.
+   */
   async enrollFace(studentId: number, imageBase64: string) {
     const student = await prisma.student.findUnique({
       where: { student_id: studentId },
@@ -85,6 +98,9 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Enroll a face using multiple images.
+   */
   async enrollFaceMulti(studentId: number, images: string[]) {
     const student = await prisma.student.findUnique({
       where: { student_id: studentId },
@@ -119,6 +135,9 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Recognize a single face and mark attendance.
+   */
   async recognizeFace(imageBase64: string, courseId: number) {
     const course = await prisma.course.findUnique({
       where: { course_id: courseId },
@@ -162,6 +181,9 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Recognize a face using multiple confirmation frames.
+   */
   async recognizeFaceConfirmed(images: string[], courseId: number) {
     const course = await prisma.course.findUnique({
       where: { course_id: courseId },
@@ -205,6 +227,9 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Recognize multiple faces in a single image.
+   */
   async recognizeFaceMulti(imageBase64: string, courseId: number) {
     const course = await prisma.course.findUnique({
       where: { course_id: courseId },
@@ -300,6 +325,9 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Mark attendance after successful recognition.
+   */
   private async _markAttendance(result: any, courseId: number) {
     const { AttendanceService } = await import(
       '../../attendance/services/attendance.service'
@@ -336,6 +364,9 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Verify a student's face.
+   */
   async verifyFace(studentId: number, imageBase64: string) {
     const student = await prisma.student.findUnique({
       where: { student_id: studentId },
@@ -381,6 +412,9 @@ export class RecognitionService {
     }
   }
 
+  /**
+   * Delete all face embeddings for a student.
+   */
   async deleteEmbedding(studentId: number) {
     const embeddings = await prisma.faceEmbedding.findMany({
       where: { student_id: studentId },
